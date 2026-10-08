@@ -1,0 +1,19 @@
+# Local browser data and test artifacts
+.cdp-profile/
+.cdp-e2e2/
+demo/.cdp-profile/
+demo/.cdp-e2e2/
+demo/shots/*.log
+
+# Local tooling
+node_modules/
+__pycache__/
+*.py[cod]
+.DS_Store
+
+# Secrets and editor settings
+.env
+.env.*
+!.env.example
+.vscode/
+.idea/
